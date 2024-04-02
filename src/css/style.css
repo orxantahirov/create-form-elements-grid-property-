@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1940px;
+  width: 95%;
+  margin: 0 auto;
+}
+body {
+  background-color: rgb(212, 208, 208);
+  color: teal;
+}
+.first form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+h1 {
+  padding: 0 0 10px 0;
+  /* color: teal; */
+}
+
+input,
+select,
+option,
+textarea,
+i {
+  color: gray;
+  padding: 10px;
+  outline: none;
+}
+
+.form_design_title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.main {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.form_design h2 {
+  font-size: 17px;
+}
+
+.form_design_title > div {
+  display: flex;
+  gap: 10px;
+}
+
+.form_design_title div i {
+  color: gray;
+}
+
+.name {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+input {
+  outline: none;
+  padding: 7px;
+}
+
+.name > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.default {
+  margin-top: 30px;
+}
+.default > div:not(:last-of-type) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.default > div input {
+  width: 70%;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.btn button {
+  padding: 7px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.btn button:first-of-type {
+  background-color: blue;
+}
+.btn button:last-of-type {
+  background-color: green;
+}
+.btn {
+  display: flex;
+  gap: 10px;
+}
+
+.mt_20 {
+  margin-top: 20px !important;
+}
+
+.mt_50 {
+  margin-top: 50px;
+}
+
+.rating > div * {
+  margin-top: 10px;
+}
+
+.register_name > div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 20px;
+}
+
+.gender > div {
+  margin-top: 10px;
+}
+
+.gender > div > div {
+  margin-top: 10px;
+}
+
+.radio {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.radio > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hobby {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.us {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.us > div:not(:last-of-type) {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.us textarea {
+  height: 100px;
+}
+
+.us .btn button {
+  background-color: blue;
+}
+
+.buttons > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons > div span {
+  width: 25%;
+}
+.buttons .go {
+  width: 75%;
+}
+.one {
+  display: grid;
+  grid-template-columns: 0.3fr 3fr;
+}
+
+.two {
+  display: grid;
+  grid-template-columns: 3fr 0.4fr;
+  margin-top: 10px;
+}
+
+.blue {
+  background-color: blue !important;
+}
+
+.go .btn {
+  gap: 0 !important;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.elements {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.elements textarea {
+  height: 100px;
+}
+
+.input_check > div {
+  margin-top: 10px;
+}
+
+.option {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.option > div > div {
+  margin-top: 10px;
+}
+
+.second form {
+  background-color: #fff;
+}
+.second {
+  padding: 20px 0;
+}
+
+.second form {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+.second form textarea {
+  height: 200px;
+}
+.second form h3 {
+  padding: 10px 0;
+}
+.grid_main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.d_grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+}
+.col-12 {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.col-6 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col-4 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col-3 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-2 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.col-1 {
+  grid-template-columns: repeat(12, 100px);
+}
+
+.first_name,
+.last_name {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin-top: 20px;
+}
+
+.text {
+  padding: 10px 0;
+}
+
+.text_2,
+.text_3 {
+  width: 30%;
+}
+.text_2 {
+  margin-top: 12px;
+}
+.text_3 {
+  margin-top: 7px;
+}
+
+.vertical > div {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  gap: 10px;
+  margin-top: 20px;
+}
